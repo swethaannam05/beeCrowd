@@ -12,21 +12,23 @@ namespace beeCrowd
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Hello World");
-            Console.ReadLine();
+            StudentGradeAverage avg = new StudentGradeAverage();
+            avg.Average();
 
-            ExtreamlyBasic extreamlyBasic= new ExtreamlyBasic();
-            extreamlyBasic.A();
+            Prod prod = new Prod();
+            prod.Prod1();
+
+            SomaAdd somaAdd = new SomaAdd();
+            somaAdd.SomaAddition();
 
             Circle circle = new Circle();
             circle.Area();
 
-            SomaAdd somaAdd= new SomaAdd();
-            somaAdd.SomaAddition();
+            ExtreamlyBasic extreamlyBasic = new ExtreamlyBasic();
+            extreamlyBasic.A();
 
-            Prod prod= new Prod();
-            prod.Prod1();
-
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
         }
     }
 }
