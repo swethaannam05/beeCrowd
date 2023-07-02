@@ -24,6 +24,9 @@ namespace beeCrowd
             SomaAdd somaAdd= new SomaAdd();
             somaAdd.SomaAddition();
 
+            Prod prod= new Prod();
+            prod.Prod1();
+
         }
     }
 }

@@ -18,7 +18,7 @@ namespace beeCrowd
             int b = Convert.ToInt32(Console.ReadLine());
             int x = a + b;
             Console.WriteLine("the value is X=" + x);
-            Console.WriteLine("Soma="+ x);
+            //Console.WriteLine("Soma="+ x);
             Console.ReadLine();
             return x;
 
