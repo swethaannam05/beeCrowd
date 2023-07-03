@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "area of shapes"
+            AreaOfShapes areaOfShapes = new AreaOfShapes();
+            areaOfShapes.Area();
+            #endregion
+
             #region "Volume of Sphere"
             VolumeOfSphere volumeOfSphere = new VolumeOfSphere();
             volumeOfSphere.Sphere();

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaOfShapes.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Difference.cs" />
     <Compile Include="ExtreamlyBasic.cs" />
