@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Simple Calculation problem"
+            SimpleCalculate simpleCalculate = new SimpleCalculate();
+            simpleCalculate.Calculate();
+            #endregion
+
             #region "Salary with bonus problem"
             SalaryWithBonus salaryWithBonus = new SalaryWithBonus();
             salaryWithBonus.SalaryBonus();
