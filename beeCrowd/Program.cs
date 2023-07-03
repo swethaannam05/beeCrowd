@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Car's average consumption fuel per km"
+            Consumption consumption = new Consumption();
+            consumption.AverageConsumption();
+            #endregion
+
             #region "The greatest number"
             TheGreatest theGreatest = new TheGreatest();
             theGreatest.Greatest();
