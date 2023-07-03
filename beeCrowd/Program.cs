@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Volume of Sphere"
+            VolumeOfSphere volumeOfSphere = new VolumeOfSphere();
+            volumeOfSphere.Sphere();
+            #endregion
+
             #region "Simple Calculation problem"
             SimpleCalculate simpleCalculate = new SimpleCalculate();
             simpleCalculate.Calculate();
