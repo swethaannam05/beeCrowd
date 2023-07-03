@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Difference problem"
+            Difference difference = new Difference();
+            difference.Differenca();
+            #endregion 
+
             #region "student Grade Average of 3 "
             StudentGradeAverage2 avg1 = new StudentGradeAverage2();
             avg1.Average1();
@@ -45,6 +50,8 @@ namespace beeCrowd
             Console.WriteLine("Hello World");
             Console.ReadLine();
             #endregion
+
+            
         }
     }
 }
