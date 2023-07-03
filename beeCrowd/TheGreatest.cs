@@ -21,20 +21,17 @@ namespace beeCrowd
             //int B =int.Parse(Console.ReadLine());
             //int C =int.Parse(Console.ReadLine());
 
-            //int great = ((A + B) + Math.Abs(A - B)) / 2;
-            //Console.WriteLine(great + " eh o maior");
-            //Console.ReadLine();
-
             int greatest = (A > B) ? ((A > C) ? A : C) : ((B > C) ? B : C);
             //int greatest = Math.Max(A, Math.Max(B, C));
             Console.WriteLine(greatest + "eh o maior");
             Console.ReadLine();
 
-            int maxnumber = ((A + B) + Math.Abs(A - B)) / 2;
-            Console.WriteLine(maxnumber + " " + " eh o maior");
-            Console.ReadLine();
+            //int maxnumber = ((A + B) + Math.Abs(A - B)) / 2;
+            //Console.WriteLine(maxnumber  +" " + "eh o maior");
+            //Console.ReadLine();
 
-            return maxnumber;
+           // return maxnumber;
+           return greatest;
         }
 
       
