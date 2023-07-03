@@ -11,6 +11,10 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Salary problem"
+            Salary salary=new Salary();
+            salary.Salaries();
+            #endregion
             #region "Difference problem"
             Difference difference = new Difference();
             difference.Differenca();
