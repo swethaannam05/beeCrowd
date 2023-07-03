@@ -11,10 +11,16 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Salary with bonus problem"
+            SalaryWithBonus salaryWithBonus = new SalaryWithBonus();
+            salaryWithBonus.SalaryBonus();
+            #endregion
+
             #region "Salary problem"
-            Salary salary=new Salary();
+            Salary salary =new Salary();
             salary.Salaries();
             #endregion
+
             #region "Difference problem"
             Difference difference = new Difference();
             difference.Differenca();

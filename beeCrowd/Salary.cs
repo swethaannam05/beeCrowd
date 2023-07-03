@@ -12,9 +12,9 @@ namespace beeCrowd
         {
             Console.WriteLine("Enter the Employee's number");
             int num=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the number of hours worked in a month");
+            Console.WriteLine("Enter the number of hours employee worked in a month");
             int hrs=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Whats the salary amount per hour");
+            Console.WriteLine("Whats the salary amount per hour?");
             double amt=Convert.ToDouble(Console.ReadLine());
             double sal=hrs*amt;
             Console.WriteLine("Number = "+ num);
