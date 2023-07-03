@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "The greatest number"
+            TheGreatest theGreatest = new TheGreatest();
+            theGreatest.Greatest();
+            #endregion
+
             #region "area of shapes"
             AreaOfShapes areaOfShapes = new AreaOfShapes();
             areaOfShapes.Area();

@@ -56,6 +56,7 @@
     <Compile Include="SomaAdd.cs" />
     <Compile Include="StudentGradeAverage.cs" />
     <Compile Include="StudentGradeAverage2.cs" />
+    <Compile Include="TheGreatest.cs" />
     <Compile Include="VolumeOfSphere.cs" />
   </ItemGroup>
   <ItemGroup>
