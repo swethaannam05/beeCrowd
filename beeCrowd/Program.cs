@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Bank notes problem"
+            BankNotes bankNotes = new BankNotes();
+            bankNotes.Notes();
+            #endregion
+
             #region "Fuel spent"
             FuelSpent fuelSpent = new FuelSpent();
             fuelSpent.Fuel();
