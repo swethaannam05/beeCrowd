@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Distance of cars"
+            DistanceCars distanceCars = new DistanceCars();
+            distanceCars.CarDistance();
+            #endregion
+
             #region "Distance between two points"
             DistanceBetweenPoints distanceBetweenPoints = new DistanceBetweenPoints();
             distanceBetweenPoints.Distance();

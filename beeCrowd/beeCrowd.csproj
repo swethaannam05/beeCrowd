@@ -48,6 +48,7 @@
     <Compile Include="Consumption.cs" />
     <Compile Include="Difference.cs" />
     <Compile Include="DistanceBetweenPoints.cs" />
+    <Compile Include="DistanceCars.cs" />
     <Compile Include="ExtreamlyBasic.cs" />
     <Compile Include="Prod.cs" />
     <Compile Include="Program.cs" />
