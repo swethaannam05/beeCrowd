@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgeInDays.cs" />
     <Compile Include="AreaOfShapes.cs" />
     <Compile Include="BankNotes.cs" />
     <Compile Include="Circle.cs" />
