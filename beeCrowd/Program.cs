@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Fuel spent"
+            FuelSpent fuelSpent = new FuelSpent();
+            fuelSpent.Fuel();
+            #endregion
+
             #region "Distance of cars"
             DistanceCars distanceCars = new DistanceCars();
             distanceCars.CarDistance();

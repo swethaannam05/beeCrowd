@@ -50,6 +50,7 @@
     <Compile Include="DistanceBetweenPoints.cs" />
     <Compile Include="DistanceCars.cs" />
     <Compile Include="ExtreamlyBasic.cs" />
+    <Compile Include="FuelSpent.cs" />
     <Compile Include="Prod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
