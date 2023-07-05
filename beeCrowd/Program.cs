@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "timeConversion"
+            TimeConversion timeConversion = new TimeConversion();
+            timeConversion.Conversion();
+            #endregion
+
             #region "Bank notes problem"
             BankNotes bankNotes = new BankNotes();
             bankNotes.Notes();
