@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Distance between two points"
+            DistanceBetweenPoints distanceBetweenPoints = new DistanceBetweenPoints();
+            distanceBetweenPoints.Distance();
+            #endregion
+
             #region "Car's average consumption fuel per km"
             Consumption consumption = new Consumption();
             consumption.AverageConsumption();
