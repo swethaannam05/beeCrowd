@@ -59,6 +59,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Salary.cs" />
     <Compile Include="SalaryWithBonus.cs" />
+    <Compile Include="SelectionTest1.cs" />
     <Compile Include="SimpleCalculate.cs" />
     <Compile Include="SomaAdd.cs" />
     <Compile Include="StudentGradeAverage.cs" />

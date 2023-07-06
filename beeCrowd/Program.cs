@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Selection Test 1"
+            SelectionTest1 selectionTest1 = new SelectionTest1();
+            selectionTest1.selectionTest();
+            #endregion
+
             #region "Banknotes and coins"
             BanknotesAndCoins banknotesAndCoins = new BanknotesAndCoins();
             banknotesAndCoins.Coins();
