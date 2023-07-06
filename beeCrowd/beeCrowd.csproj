@@ -51,6 +51,7 @@
     <Compile Include="Bhaskara_sFormula.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Consumption.cs" />
+    <Compile Include="Coordinates_of_a_Point.cs" />
     <Compile Include="Difference.cs" />
     <Compile Include="DistanceBetweenPoints.cs" />
     <Compile Include="DistanceCars.cs" />
