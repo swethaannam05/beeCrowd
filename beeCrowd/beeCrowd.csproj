@@ -63,6 +63,7 @@
     <Compile Include="SalaryWithBonus.cs" />
     <Compile Include="SelectionTest1.cs" />
     <Compile Include="SimpleCalculate.cs" />
+    <Compile Include="Snack.cs" />
     <Compile Include="SomaAdd.cs" />
     <Compile Include="StudentGradeAverage.cs" />
     <Compile Include="StudentGradeAverage2.cs" />

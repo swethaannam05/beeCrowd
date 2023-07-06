@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Snack program"
+            Snack snack= new Snack();
+            snack.Snacks();
+            #endregion
+
             #region "Interval problem"
             Interval interval = new Interval();
             interval.Intervals();
