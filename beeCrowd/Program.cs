@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Bhaskara's Formula"
+            Bhaskara_sFormula bhaskara_SFormula = new Bhaskara_sFormula();
+            bhaskara_SFormula.Bhaskar();
+            #endregion
+
             #region "Selection Test 1"
             SelectionTest1 selectionTest1 = new SelectionTest1();
             selectionTest1.selectionTest();
