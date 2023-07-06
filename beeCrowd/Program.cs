@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Simple sort"
+            SimpleSort simpleSort = new SimpleSort();
+            simpleSort.Sort();
+            #endregion
+
             #region "Coordinate of a point"
             Coordinates_of_a_Point coordinates_Of_A_Point =new Coordinates_of_a_Point();
             coordinates_Of_A_Point.Coordinates();
