@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Interval problem"
+            Interval interval = new Interval();
+            interval.Intervals();
+            #endregion
+
             #region "Bhaskara's Formula"
             Bhaskara_sFormula bhaskara_SFormula = new Bhaskara_sFormula();
             bhaskara_SFormula.Bhaskar();
