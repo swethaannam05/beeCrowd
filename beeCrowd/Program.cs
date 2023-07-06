@@ -11,8 +11,13 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Banknotes and coins"
+            BanknotesAndCoins banknotesAndCoins = new BanknotesAndCoins();
+            banknotesAndCoins.Coins();
+            #endregion
+
             #region "Age in Days"
-            AgeInDays ageInDays=new AgeInDays();
+            AgeInDays ageInDays =new AgeInDays();
             ageInDays.Age();
             #endregion
 

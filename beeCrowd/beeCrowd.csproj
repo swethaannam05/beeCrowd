@@ -46,6 +46,7 @@
     <Compile Include="AgeInDays.cs" />
     <Compile Include="AreaOfShapes.cs" />
     <Compile Include="BankNotes.cs" />
+    <Compile Include="BanknotesAndCoins.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Consumption.cs" />
     <Compile Include="Difference.cs" />
