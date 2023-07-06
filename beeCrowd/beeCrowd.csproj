@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AgeInDays.cs" />
     <Compile Include="AreaOfShapes.cs" />
+    <Compile Include="Average3.cs" />
     <Compile Include="BankNotes.cs" />
     <Compile Include="BanknotesAndCoins.cs" />
     <Compile Include="Bhaskara_sFormula.cs" />

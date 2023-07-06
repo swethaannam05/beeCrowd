@@ -11,8 +11,13 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region 
+            Average3 average3 = new Average3();
+            average3.Averageof3();
+            #endregion
+
             #region "Snack program"
-            Snack snack= new Snack();
+            Snack snack = new Snack();
             snack.Snacks();
             #endregion
 
