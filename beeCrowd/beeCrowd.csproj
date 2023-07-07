@@ -72,6 +72,7 @@
     <Compile Include="StudentGradeAverage2.cs" />
     <Compile Include="TheGreatest.cs" />
     <Compile Include="TimeConversion.cs" />
+    <Compile Include="TriangleProblem.cs" />
     <Compile Include="VolumeOfSphere.cs" />
   </ItemGroup>
   <ItemGroup>

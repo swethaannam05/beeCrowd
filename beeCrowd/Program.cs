@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Triangle prolem"
+            TriangleProblem triangleProblem = new TriangleProblem();
+            triangleProblem.Triangle();
+            #endregion
+
             #region "Simple sort"
             SimpleSort simpleSort = new SimpleSort();
             simpleSort.Sort();
