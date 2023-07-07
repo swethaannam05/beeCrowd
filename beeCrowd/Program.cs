@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Multiples problem"
+            MultiplesProblem multiplesProblem = new MultiplesProblem();
+            multiplesProblem.Multiples();
+            #endregion
+
             #region "Triangle prolem"
             TriangleProblem triangleProblem = new TriangleProblem();
             triangleProblem.Triangle();

@@ -58,6 +58,7 @@
     <Compile Include="ExtreamlyBasic.cs" />
     <Compile Include="FuelSpent.cs" />
     <Compile Include="Interval.cs" />
+    <Compile Include="MultiplesProblem.cs" />
     <Compile Include="Prod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
