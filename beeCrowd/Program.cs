@@ -11,6 +11,11 @@ namespace beeCrowd
     {
         static void Main(string[] args)
         {
+            #region "Game time problem"
+            GameTime gameTime = new GameTime();
+            gameTime.Game();
+            #endregion
+
             #region "Triangle types problem"
             TriangleTypesProblem triangleTypesProblem = new TriangleTypesProblem();
             triangleTypesProblem.TriangleTypes();
